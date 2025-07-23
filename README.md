@@ -1,6 +1,7 @@
-# chattercode README
+# Chattercode
 
-This is the README for your extension "chattercode". After writing up a brief description, we recommend including the following sections.
+
+This is the README for your extension "chattercode". After writing up a brief description, we recommend including the following sections. (i will add more when im not lazy trust)
 
 ## Features
 
