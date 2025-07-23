@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "chattercode",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.chattercode",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.chattercode",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.chattercode",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.chattercode"
+}

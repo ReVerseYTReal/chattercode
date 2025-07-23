@@ -1,0 +1,25 @@
+{
+  "name": "chattercode",
+  "displayName": "Chattercode",
+  "description": "A new programming language made by ReVerse that looks like english, works like english, but is actually a programming language!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "chattercode",
+      "aliases": ["chattercode", "chattercode"],
+      "extensions": [".chc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "chattercode",
+      "scopeName": "source.chattercode",
+      "path": "./syntaxes/chattercode.tmLanguage.json"
+    }]
+  }
+}
