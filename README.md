@@ -1,17 +1,19 @@
-# ChatterCode
-
-Syntax highlighting and basic language support for the ChatterCode programming language.
+<p align="center">
+  <img src="logo.png" alt="ChatterCode" width="200">
+</p>
+<h1 align="center">ChatterCode</h1>
+<h3 align="center">Syntax highlighting and basic language support for the ChatterCode programming language.</h3>
 
 ## Features
 
-- Syntax highlighting for `.chc` files  
-- Language snippets (if added)  
-- Support for VS Code language features
+- Syntax highlighting for ChatterCode (.chc) files
+- Language snippets
+- Support for Visual Studio Code language features
 
 ## Usage
 
-Open `.chc` files in VS Code and enjoy ChatterCode syntax highlighting.
+Open ChatterCode (.chc) files in VS Code and enjoy ChatterCode syntax highlighting.
 
 ## Installation
 
-Install from the VS Code Marketplace or download the `.vsix` file.
+Install from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=reverseyt.chattercode) or download the `.vsix` file.
